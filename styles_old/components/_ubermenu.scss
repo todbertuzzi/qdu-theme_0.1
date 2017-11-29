@@ -1,0 +1,49 @@
+a.ubermenu-target.ubermenu-item-layout-default.ubermenu-item-layout-text_only{
+	   // line-height: 28px;
+	    outline: none;
+}
+
+.menuitem-main{
+	background-color: #dc3545 !important;
+}
+
+a.ubermenu-target.ubermenu-item-layout-default.ubermenu-item-layout-text_only {
+    font-family: 'Akkurat';
+}
+
+.ubermenu .ubermenu-colgroup .ubermenu-column, .ubermenu .ubermenu-custom-content-padded, .ubermenu .ubermenu-nonlink, .ubermenu .ubermenu-retractor, .ubermenu .ubermenu-submenu-padded, .ubermenu .ubermenu-submenu-type-stack>.ubermenu-item-normal>.ubermenu-target, .ubermenu .ubermenu-target, .ubermenu .ubermenu-widget, .ubermenu-responsive-toggle{
+	   // padding: 10px 20px
+}
+
+.ubermenu .no_visible {
+    visibility: hidden;
+}
+.ubermenu .menuitem-main a {
+    //line-height: 15px !important;
+}
+.ubermenu .menuitem-main .ubermenu-submenu {
+    //margin-top: 8px !important;
+}
+
+
+.ubermenu-has-submenu-drop.nav_mm_singolo>.ubermenu-target:after{
+	visibility: hidden;
+}
+
+.ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target:after
+
+.menuitem-main a{
+	//line-height: 15px !important;
+}
+.menuitem-main {
+    //margin-top: 7px !important;
+}
+
+header .container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+	& .ubermenu-main{
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+}

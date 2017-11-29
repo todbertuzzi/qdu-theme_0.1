@@ -1,0 +1,19 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+  margin-left:20px;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+  margin-right:10px;
+}
+.search-form .search-field {
+  @extend .form-control;
+  padding: .2rem .75rem;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+  padding: .2rem .75rem;
+}

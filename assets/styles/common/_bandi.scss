@@ -1,0 +1,42 @@
+.bandi-accordion{
+    
+    padding: 20px;
+
+    & .card{
+        margin-bottom: 10px;
+        & .card-header h5 a{
+            color: #0095d5;
+            font-weight: 900;
+            font-size: 1rem;
+        }
+        & .card-header h5 a:hover{
+            text-decoration: none;
+        }
+
+        & .card-body li{
+            & a{
+                color: #0095d5;
+                line-height: 20px;
+                //background-color: #0095d5;
+            }
+            & i {
+                color: #0095d5;
+                padding-right: 10px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    & .file-allegati{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sacarica-doc{
+        color: #0095d5;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+}
+

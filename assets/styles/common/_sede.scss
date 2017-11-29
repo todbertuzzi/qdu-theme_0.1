@@ -1,0 +1,26 @@
+.grid_sede{
+   & .fl-post-column{
+    float: left;
+   }
+
+
+   & .fl-post-grid-text{
+        padding-left: 0;
+        padding-right: 0;
+        background-color: #0095d5;
+        min-height: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+    & h2.fl-post-grid-title{
+        padding: 5px;
+        text-align: center;
+        line-height: 15px;
+        & a {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}

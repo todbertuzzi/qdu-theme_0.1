@@ -1,0 +1,34 @@
+// NEWS
+.new_home .fl-post-grid-image{
+	overflow: hidden;
+	background-color: #0095d5;
+}
+
+.new_home .fl-post-grid-post:hover .fl-post-grid-image img {
+   -webkit-transform: translate3d(0,0,0) scale(1);
+   transform: translate3d(0,0,0) scale(1);
+}
+
+.new_home .fl-post-grid-text{
+	-webkit-transition: background-color 0.35s linear;
+    -ms-transition: background-color 0.35s linear;
+    transition: background-color 0.35s linear;
+
+	background-color: #E73221;
+	height: 80px;
+	
+	& h2 a {
+		color: #fff;
+    	font-family: 'Akkurat';
+	}
+}
+.new_home .fl-post-grid-post:hover .fl-post-grid-text{
+	background-color: #0095d5;
+}
+
+.new_home .fl-post-grid-image img{
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0px,0,0) scale(0.85);
+	transform: translate3d(0px,0,0) scale(0.85);
+}

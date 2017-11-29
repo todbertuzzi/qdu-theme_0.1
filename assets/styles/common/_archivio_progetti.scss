@@ -1,0 +1,26 @@
+.grid_progetti{
+   & .fl-post-column{
+    float: left;
+   }
+
+
+   & .fl-post-grid-text{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        background-color: #0095d5;
+        min-height: 80px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    & h2.fl-post-grid-title{
+        padding: 5px;
+        text-align: center;
+        line-height: 15px;
+        & a {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}

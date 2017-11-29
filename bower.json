@@ -1,0 +1,16 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-beta",
+    "popper.js": "^1.12.3",
+    "Snap.svg": "snap.svg#^0.5.1",
+    "cookies-js": "^1.2.3",
+    "flexslider": "^2.6.4"
+  }
+}

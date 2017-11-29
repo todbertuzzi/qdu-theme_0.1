@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/classie.js",        
+        "scripts/selectFx.js",
+        "scripts/anim_logo.js",
+        "scripts/vertical_layout.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    }, 
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "config": {
+    "devUrl": "http://localhost:8080/"
+  }
+}

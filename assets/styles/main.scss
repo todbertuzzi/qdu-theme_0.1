@@ -1,0 +1,33 @@
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+
+@import "common/mixin";
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/ubermenu";
+@import "components/wp-classes";
+@import "components/effect-milo";
+@import "components/select_cd";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+@import "layouts/home";
+@import "common/vertical";
+@import "common/archivio_docenti";
+@import "common/archivio_corsi";
+@import "common/archivio_staff";
+@import "common/archivio_progetti";
+@import "common/archivio_storie_successo";
+@import "common/sede";
+@import "common/news";
+@import "common/bandi";

@@ -1,0 +1,91 @@
+
+.archivio-corsi  .wrap.holder_A>.content.row, .wrap.holder_B>.content.row{
+    margin-right: 15px;
+}
+
+
+.testa_annuali, .testa_triennali, .testa_master{
+    & .fl-col-content.fl-node-content{
+        border-bottom-left-radius: 10px;
+    }
+
+    & h3.uabb-heading{
+        text-transform: uppercase;
+        font-weight: 900;
+
+    }
+}
+
+#annuali_corsi, #triennali_corsi , #master_corsi{
+    
+    & .fl-post-grid-text{
+        background-color: #0095d5;
+        height: 85px;
+        text-align: center;
+        border-top-left-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+         transition: background-color 0.3s  ;
+        -webkit-transition: background-color 0.3s ;
+        
+
+        & .fl-post-grid-title a{
+          color: #fff;
+        }
+    }
+
+     & .fl-post-column{
+        float: left !important;
+     }
+
+     & .fl-post-grid-image{
+        border: 1px solid #0095d5;
+        transition: background-color 0.3s ;
+        -webkit-transition: background-color 0.3s ;
+
+        & img {
+             -webkit-transition: -webkit-transform 0.35s;
+             transition:  transform 0.35s;
+            -webkit-transform: translate3d(0px,0,0) scale(1);
+            transform: translate3d(0px,0,0) scale(1);
+           
+        }
+           
+     }
+
+     & .fl-post-grid-image + .fl-post-grid-text{
+        display: none;
+     }
+}
+
+
+#annuali_corsi, #triennali_corsi , #master_corsi{
+    .fl-post-grid-post:hover {
+        & .fl-post-grid-text{
+            background-color: rgba(0,149,213,0.7); 
+            & .fl-post-grid-title a{
+              color: #fff;
+            } 
+        }
+
+        & .fl-post-grid-image{
+            background-color: rgba(0,149,213,0.3); 
+
+            & img {
+                -webkit-transform: translate3d(0px,0,0) scale(0.9);
+                transform: translate3d(0px,0,0) scale(0.9);
+            }
+        }
+    }
+}
+  
+
+/*
+CORSO SINGOLO
+*/
+#tipologia_corso_singolo h3 {
+    color: #0095d5;
+    font-size: 16px;
+    text-transform: uppercase;
+    /* border-top: 1px solid; */
+}

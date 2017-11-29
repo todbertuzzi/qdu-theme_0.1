@@ -1,0 +1,15 @@
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+$gray-100 : #707070;
+$navbar-light-color: #ffffff;
+
+$font-family-sans-serif:'Akkurat', Lato, sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+//$font-family-sans-serif: "Times New Roman", Times, serif;
+
+$larghezza_totale_header_sx_vertical : 260px; //  COL TOGGLE + COL LOGO
+$larghezza_totale_colonna_sx_menu : 230px;
+$fixMarginNegative:15px;
+
+$larghezza_totale_colonna_sx_vertical : $larghezza_totale_header_sx_vertical+$larghezza_totale_colonna_sx_menu+$fixMarginNegative;
+

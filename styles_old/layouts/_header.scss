@@ -1,0 +1,172 @@
+.container-fluid.testata{
+background-color: #0095D5;
+    & .logo_30_holder{
+        float: right;
+    }
+    & .logoHolder{
+        float: left;
+    }
+} 
+.container.testata{
+background-color: #0095D5;
+    & .logo_30_holder{
+        float: right;
+    }
+    & .logoHolder{
+        float: left;
+    }
+}   
+
+.home .banner{
+        margin-top: -7px;
+}
+.banner{
+    margin-top: -7px;
+}
+
+.banner{
+    background-color:  #343a40!important;
+}
+
+.banner .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand{
+	width: 100%;
+    padding-top: 20px;
+   // padding-bottom: 20px;
+}
+
+.navbar-brand{
+	position: relative;
+	z-index: 3;
+	background-color: #0095D5;
+}
+.navbar-brand svg{
+    //margin-left: 18px;
+    visibility: hidden;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    font-family: 'Akkurat';
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    font-family: 'Akkurat';
+    color: #dc3545;
+}
+
+.navbar-nav li {
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .show>.nav-link{
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 10px;
+}
+
+a.nav-link {
+    font-family: 'Akkurat';
+}
+.dropdown-menu.show{
+    background-color: #343a40;
+}
+
+.dropdown-item{
+    color: #fff;
+    font-family: 'Akkurat';
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #dc3545;
+}
+
+.shiftnav-toggle-button {
+    color: #fff !important;
+    font-size: 13px;
+    width: 160px;
+}
+.shiftnav-toggle-button  i {
+        text-transform: capitalize;    
+    }
+
+.shiftnav-toggle-button{
+        background: #dc3545
+}   
+
+a.shiftnav-target:hover {
+    background-color: #0095d5 !important;
+    color: #fff !important;
+}
+
+.bg-light {
+    background-color: #343a40!important;
+} 
+
+#qdu_quasar_svg,#qdu_design_svg,#qdu_university_svg,{
+//opacity: 0;
+}
+#qdu_barra_q{
+
+}
+
+#wrapperMask{
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0095D5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 94px;
+    z-index: 9999;
+    opacity: 1;
+}
+
+
+.morph-shape,
+.morph-shape svg {
+   
+}
+
+.morph-shape {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    -webkit-transition: height 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+    transition: height 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+    z-index: 2;
+    //visibility: hidden;
+}
+
+.morph-shape svg {
+    height: 100vh;
+    position: fixed;
+}
+
+.menu-principale{
+    margin-left: 50px;
+}
+
+.menu.menu--open .morph-shape {
+    height: 400px;
+}
+
+.morph-shape svg path {
+    fill: #0095D5;
+}
+
+.navbar-nav li{
+    font-size: 13px;
+}

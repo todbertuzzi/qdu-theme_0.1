@@ -1,0 +1,143 @@
+.corpo_news .fl-rich-text {
+    background-color: #0095d5;
+    padding: 10px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    color: #fff;
+}
+
+.news-Style h3.uabb-post-heading a:focus {
+    outline: none;
+}
+
+.news_le_notizie .holder-arrow{
+ padding-left: 20px;   
+}
+ 
+
+.news_le_notizie .holder-arrow  .slick-prev i,.news_le_notizie .uabb-blog-posts .slick-next i{
+   // width: 100% !important;
+   // border-bottom-left-radius: 10px;
+   // border-bottom-right-radius: 10px;
+    background-color: #0095d5;
+    color: #fff;
+}
+
+.news_le_notizie .holder-arrow  .slick-prev{
+    //position: absolute;
+    //top: -2px !important;
+    ////width: 50% !important;
+    //left: 25px !important;
+    background-color: #0095d5;
+    &:focus{
+        outline: none;
+    }
+
+    &:hover {
+        & i{
+            color: #444;
+            background-color: #0095d5;
+        }
+        background-color: #0095d5;
+
+    }
+
+    & i{
+        background-color: #0095d5;
+        color: #fff;
+    }
+}
+.news_le_notizie .holder-arrow  .slick-next{
+    //position: absolute;
+    //top: -2px !important;
+    //width: 50% !important;
+    //right:25px !important;
+    background-color: #0095d5;
+    &:focus{
+        outline: none;
+    }
+    &:hover {
+        & i{
+            color: #444;
+            background-color: #0095d5;
+        }
+        background-color: #0095d5;
+
+    }
+    
+     & i{
+        background-color: #0095d5;
+        color: #fff;
+    }
+}
+.news_le_notizie .customTaxonomy-inner{
+    position: absolute;
+    right: 25px;
+    z-index: 999;
+    background-color: #0095d5;
+    padding: 5px;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.news_le_notizie .uabb-post-heading.uabb-blog-post-section{
+    font-weight: 700;
+    color: #0095d5;
+    text-transform: uppercase;
+}
+
+
+
+// SINGOLA NEWS STILE 6
+.alert_no_link{
+    text-align: right;
+    float: right;
+    color: #0095d5;
+    font-size: 14px;
+}
+
+.infoLinkNews{
+    & .uabb-info-list-wrapper{
+        margin-top: 0;
+        padding: 0;
+        list-style: none
+    }
+
+    & .uabb-info-list-item{
+        padding-bottom: 20px !important;
+    }
+    & .uabb-info-list-icon{
+        vertical-align:middle;
+        margin-right: 20px;
+        display: inline-block;
+    }
+    & .uabb-info-list-title {
+        color: #0095d5;
+    }
+    & .uabb-info-list-content{
+        display: inline-block;
+        vertical-align: middle;
+        width: calc( 100% - 50px );
+        float: right;
+
+        & a{
+            color: #0095d5;
+            line-height: 30px;
+        }
+    }
+    & .uabb-icon-wrap .uabb-icon i{        
+       color: #fff;
+        font-size: 15px;
+        height: auto;
+        width: auto;
+        background: #0095d5;
+        border-radius: 100%;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        line-height: 30px;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+    }
+}
